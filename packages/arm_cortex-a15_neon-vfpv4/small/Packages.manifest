@@ -1,0 +1,247 @@
+Package: brook
+Version: 20210701-1
+Depends: libc, ca-bundle
+Source: feeds/small/brook
+SourceName: brook
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1630136428
+Maintainer: CN_SZTL <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2548186
+Filename: brook_20210701-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2549498
+SHA256sum: 58421b78b3fa8e0fcc0fa2fefc241b2e227c5a00fdbe6b2fc8e1ad119d5ea4ee
+Description:  Brook is a cross-platform strong encryption and not detectable proxy.
+ Zero-Configuration.
+
+Package: chinadns-ng
+Version: 1.0-beta.25-1
+Depends: libc, ipset
+Source: feeds/small/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1630136428
+Maintainer: pexcn <i@pexcn.me>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 16627
+Filename: chinadns-ng_1.0-beta.25-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 17412
+SHA256sum: 5231c44340aeb1cf720f7bf04e17c66b2e180be3c30db8ce65b7811dd809f694
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: feeds/small/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1630136428
+Maintainer: ghostmaker
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 10681
+Filename: dns2socks_2.1-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 11442
+SHA256sum: 92776fd236017620277df08be61de48446b2cca04949115336a51d5f0faea6ef
+Description:  This is a utility to resolve DNS requests via a SOCKS5 tunnel and caches the answers.
+
+Package: ipt2socks
+Version: 1.1.3-2
+Depends: libc
+Source: feeds/small/ipt2socks
+SourceName: ipt2socks
+Section: net
+SourceDateEpoch: 1630136428
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 31111
+Filename: ipt2socks_1.1.3-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 31854
+SHA256sum: e1b904361759a2497b6325d277a074c42a00b9b36b2961407d67cd4765c59e16
+Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-a8e46ccba7b0fa2230d6c42ab6dcd92926f6c21d
+Depends: libc, libpthread
+Source: feeds/small/pdnsd-alt
+SourceName: pdnsd-alt
+Section: net
+SourceDateEpoch: 1630136428
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 88424
+Filename: pdnsd-alt_1.2.9b-par-a8e46ccba7b0fa2230d6c42ab6dcd92926f6c21d_arm_cortex-a15_neon-vfpv4.ipk
+Size: 89506
+SHA256sum: d829017ecaef2bf8c980e4b001898e9bf7ee2b67c3041d1274401ac2a9c233c0
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1630136428
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2231
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3014
+SHA256sum: 117444c3a173440fd35414bc0948e720c9f4e406500ea7d239fbbba580ad6f5e
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1630136428
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 58748
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_arm_cortex-a15_neon-vfpv4.ipk
+Size: 59588
+SHA256sum: f5e66f4553241a0f8b1d50a386e536dde40e86f43335a5b34d04379fca84ee20
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1630136428
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 53138
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_arm_cortex-a15_neon-vfpv4.ipk
+Size: 53926
+SHA256sum: 26dbfee917b52a89590bf0f0055976fa381a01619bf8943cca0cbc62403669ef
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/small/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-server
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1630136428
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 62362
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_arm_cortex-a15_neon-vfpv4.ipk
+Size: 62981
+SHA256sum: 94a6831f3b047520bb7d47088928751cd250ce19c543f07d069034d38c455d5a
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs
+Version: 0.0.5-4
+Depends: libc, libpthread, libev
+Source: feeds/small/simple-obfs
+SourceName: simple-obfs
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1630136428
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 27106
+Filename: simple-obfs_0.0.5-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 27969
+SHA256sum: 9f5879f6c0cd79c8a45227da4952987af06deb78d8a98cc5b68b4edaac21dae3
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: trojan-go
+Version: 0.10.4-1
+Depends: libc
+Source: feeds/small/trojan-go
+SourceName: trojan-go
+Section: net
+SourceDateEpoch: 1630136428
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3088517
+Filename: trojan-go_0.10.4-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3089921
+SHA256sum: 543d0c4253c8312857c7cca3b6a5a25d2cebb48e5e36d3473c8842c6c99d4cb9
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+Source: feeds/small/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1630136428
+Maintainer: Trojan-Plus-Group
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 364820
+Filename: trojan-plus_10.0.3-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 365418
+SHA256sum: 8ef4da567bde2bbf7c9dde16b519cae9c2dc48285b878ac7bca0df6fafff1d12
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan
+Version: 1.16.0-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options, boost-date_time
+Source: feeds/small/trojan
+SourceName: trojan
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1630136428
+Maintainer: GreaterFire
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 264980
+Filename: trojan_1.16.0-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 265496
+SHA256sum: df0f361fb2488cc33bcdcf595b616c834f1378e22ce2ba9c3a3a24e3f21c4f1a
+Description:  An unidentifiable mechanism that helps you bypass GFW
+
+Package: v2ray-core
+Version: 4.41.1-1
+Depends: libc, ca-bundle
+Source: feeds/small/v2ray-core
+SourceName: v2ray-core
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1630136428
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3939658
+Filename: v2ray-core_4.41.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3941223
+SHA256sum: 29d4c6039d1f97fd720a9302e3b83ced57d2c08215e333de30bc4819dee78da5
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: v2ray-plugin
+Version: 4.41.0-1
+Depends: libc, ca-certificates
+Source: feeds/small/v2ray-plugin
+SourceName: v2ray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1630136428
+Maintainer: madeye <max.c.lv@gmail.com>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2834635
+Filename: v2ray-plugin_4.41.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2835959
+SHA256sum: 9c9c681b1f76b579286b795f4d0b5b70be1e30aca2757ce145ac63e24ecc69e2
+Description:  Yet another SIP003 plugin for shadowsocks, based on v2ray
+

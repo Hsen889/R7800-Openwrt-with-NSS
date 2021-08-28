@@ -1,0 +1,115 @@
+Package: luci-app-jd-dailybonus
+Version: 1.0.5
+Depends: libc, node, uclient-fetch, lua, libuci-lua
+Section: luci
+Architecture: all
+Installed-Size: 1083965
+Filename: luci-app-jd-dailybonus_1.0.5_all.ipk
+Size: 1084240
+SHA256sum: 1b2a76828cfb65124fb39c12c2f0d59852edcf3d234fd07d5ec8d3754a20317f
+Description:  Luci for JD dailybonus Script
+
+Package: luci-app-openclash
+Version: 0.43.01-beta
+Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, ruby, ruby-yaml
+Section: opt
+Architecture: all
+Installed-Size: 2121386
+Filename: luci-app-openclash_0.43.01-beta_all.ipk
+Size: 2116388
+SHA256sum: 2524e1f8e49af020ffb4d7fd789b32bc5ed74d75693f208b004d60bac45d04de
+Description:  A LuCI support for clash
+
+Package: luci-app-passwall
+Version: 4.34
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, dnsmasq-full, ipset, ip-full, ipt2socks, iptables-mod-tproxy, libuci-lua, lua, luci-lib-jsonc, microsocks, tcping, resolveip, unzip, brook, chinadns-ng, dns2socks, haproxy, kcptun-client, naiveproxy, pdnsd-alt, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, simple-obfs, trojan-go, trojan-plus, v2ray-core, v2ray-plugin, xray-core
+Section: luci
+Architecture: all
+Installed-Size: 817638
+Filename: luci-app-passwall_4.34_all.ipk
+Size: 817740
+SHA256sum: 8a01dae8f4a4520bb93d1cb11f2c3e3a097768c39e36b01db9a646989ad66fa2
+Description:  LuCI support for PassWall
+
+Package: luci-app-ssr-plus
+Version: 184
+Depends: libc, coreutils, coreutils-base64, dns2socks, dnsmasq-full, ipset, ip-full, iptables-mod-tproxy, lua, libuci-lua, microsocks, pdnsd-alt, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, libustream-openssl20201210, kcptun-client, redsocks2, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, simple-obfs, trojan, ipt2socks, curl, xray-core
+Section: luci
+Architecture: all
+Installed-Size: 193743
+Filename: luci-app-ssr-plus_184_all.ipk
+Size: 194047
+SHA256sum: 57bd9d35c40607ca0f32e20ceaee8320015fea81e77a16e09376b6484ff23168
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-i18n-passwall-zh-cn
+Version: git-21.240.64769-731f37a
+Depends: libc, luci-app-passwall
+Section: luci
+Architecture: all
+Installed-Size: 10258
+Filename: luci-i18n-passwall-zh-cn_git-21.240.64769-731f37a_all.ipk
+Size: 11112
+SHA256sum: eae970d4821c9e87be371996c58b87d10a175c052ca1a0fbf42d92e274ab918b
+Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: git-21.240.64769-731f37a
+Depends: libc, luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 5388
+Filename: luci-i18n-ssr-plus-zh-cn_git-21.240.64769-731f37a_all.ipk
+Size: 6215
+SHA256sum: 74af305d27c8d4a5c666d7fb81967754fb5f662c0ec6202b472ae303da9bb946
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Chinese Simplified)
+
+Package: microsocks
+Version: 1.0.2-2
+Depends: libc
+License: MIT
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5045
+Filename: microsocks_1.0.2-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5770
+SHA256sum: 040e53bc5335942ba8d314cbb15e076e39cdb5338cb86c99270069bde21d6146
+Description:  microsocks is a Tiny Proxy in C.
+
+Package: naiveproxy
+Version: 92.0.4515.107-1-1
+Depends: libc, libatomic1
+License: BSD 3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2132921
+Filename: naiveproxy_92.0.4515.107-1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 2126732
+SHA256sum: 3447d6e3d7558e6fe2de4c7ef1350f227813a10db98ec57d52e8f479a0b521e9
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: redsocks2
+Version: 0.67-4
+Depends: libc, libevent2-7, libopenssl1.1
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 52923
+Filename: redsocks2_0.67-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 53763
+SHA256sum: 1f5b1cc86f8a337646a7ba272defd97a1f89c5df09005e3eaacdee5b6a63b63d
+Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3291
+Filename: tcping_0.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4007
+SHA256sum: be2933ad1cb293a251a5c09bfe9169c523a6864c4f7317d230c6407263714089
+Description:  tcping measures the latency of a tcp-connection
+
